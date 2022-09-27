@@ -1,23 +1,24 @@
 /* general style*/
-*{
+* {
     box-sizing: border-box;
     padding: 5px;
     margin: 5px;
 }
 
-body {
-    background-color:lightcyan;
+/*body {
+    background-color:blue;
     display: inline-block;
-}
+} */
 
 .name {
-    margin: 0 auto;
+    margin: 0 auto;s
     padding:0 20px 20px 20px;
     border: 10px solid black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
-    background-color: brown;
+    background-color:steelblue;
     color: black;
 }
+
 .name {
     display: center;
     font-size: 25px;
@@ -42,30 +43,57 @@ img {
     object-position: left;
 }
 
-/* body - right options */
+/* body - left options */
 
 .box {
-    background-color: blueviolet;
+    background-color:steelblue;
     width: 300px;
     height: 300px;
-    border-right: 20px solid black;
+    font-size: 40px;
+    border-right: 10px solid blue;
     text-align:center;
     align-items: center;
     justify-content:space-between;
-    color: blanchedalmond;
+    color: black;
     display:grid;
-    flex:auto;
     flex-direction: column;
 }
+.box:hover {
+    color:aliceblue;
 
-/* left details */
+}
+/* right details */
 
 .container {
-    background-color: yellow;
-    height: 300px;
-    width: 73%;
+    background-color:cornflowerblue;
+    height: 290px;
+    width: 100%;
     justify-content: space-between;
     display: grid;
     flex: auto;
     float:right;
+    justify-content: space-between;
+}
+.container:hover {
+    color: aliceblue;
+}
+.outer, .content {
+    margin:0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    margin: 5px;
+}
+
+.outer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 20px;
+    text-align: center;
+}
+
+.text {
+    font-weight: bolder;
+    font-size: 25px;
 }
